@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onclick function in html</title>
+</head>
+<body>
+    <h1>My First Java Script</h1>
+
+    <p>Java Script can change the content of an HTML element: </p>
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <p id="demo">This is a demonstration.</p>
+
+    <script>
+        function myFunction() {
+            document.getElementById('demo').innerHTML = "Hello JavaScript!";
+        }
+    </script>
+</body>
+</html>

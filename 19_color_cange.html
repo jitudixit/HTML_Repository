@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color change font size and bacground change in html using javascript</title>
+</head>
+<body>
+    <h1>My First JavaScript</h1>
+    <p id="demo">Java Script can chage the style of an HTML element.</p>
+
+    <script>
+        function myFunction() {
+            document.getElementById('demo').style.fontSize= "25px";
+            document.getElementById('demo').style.color = "pink";
+            document.getElementById('demo').style.background = "yellow";
+        }
+    </script>
+    <button type="button" onclick="myFunction()">click me</button>
+</body>
+</html>
